@@ -7,7 +7,7 @@ description: Use when setting up CI/CD pipelines, infrastructure as code, contai
 
 ## Overview
 
-Full DevOps pipeline generator: from infrastructure design to production-ready deployment with monitoring and security. Generates a `DevOps-Suite/` folder in the project root containing Terraform modules, CI/CD pipelines, container configs, monitoring dashboards, and security policies for AWS, GCP, and Azure.
+Full DevOps pipeline generator: from infrastructure design to production-ready deployment with monitoring and security. Generates a `Claude-Production-Grade-Suite/devops/` folder in the project root containing Terraform modules, CI/CD pipelines, container configs, monitoring dashboards, and security policies for AWS, GCP, and Azure.
 
 ## When to Use
 
@@ -59,7 +59,7 @@ Use AskUserQuestion to gather (batch into 2-3 calls max):
 
 ## Phase 2: Infrastructure as Code (Terraform)
 
-Generate `DevOps-Suite/terraform/`:
+Generate `Claude-Production-Grade-Suite/devops/terraform/`:
 
 ### Module Structure
 ```
@@ -112,7 +112,7 @@ Generate provider blocks and modules for each target cloud:
 
 ## Phase 3: CI/CD Pipelines
 
-Generate `DevOps-Suite/ci-cd/`:
+Generate `Claude-Production-Grade-Suite/devops/ci-cd/`:
 
 ### Pipeline Templates
 ```
@@ -160,7 +160,7 @@ Generate configs for the selected strategy:
 
 ## Phase 4: Container Orchestration
 
-Generate `DevOps-Suite/containers/`:
+Generate `Claude-Production-Grade-Suite/devops/containers/`:
 
 ### Docker
 ```
@@ -218,7 +218,7 @@ K8s standards:
 
 ## Phase 5: Monitoring & Observability
 
-Generate `DevOps-Suite/monitoring/`:
+Generate `Claude-Production-Grade-Suite/devops/monitoring/`:
 
 ```
 monitoring/
@@ -270,7 +270,7 @@ monitoring/
 
 ## Phase 6: Security
 
-Generate `DevOps-Suite/security/`:
+Generate `Claude-Production-Grade-Suite/devops/security/`:
 
 ```
 security/
@@ -317,7 +317,7 @@ security/
 ## Suite Output Structure
 
 ```
-DevOps-Suite/
+Claude-Production-Grade-Suite/devops/
 ├── terraform/
 │   ├── modules/
 │   │   ├── networking/
