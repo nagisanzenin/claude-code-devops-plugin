@@ -1,0 +1,10 @@
+{
+  "name": "devops",
+  "description": "Full DevOps pipeline generator: Terraform IaC, CI/CD, Docker/Kubernetes, monitoring/observability, and security for AWS/GCP/Azure production deployments",
+  "version": "1.0.0",
+  "author": {
+    "name": "nagisanzenin"
+  },
+  "license": "MIT",
+  "keywords": ["devops", "terraform", "kubernetes", "ci-cd", "monitoring", "security", "multi-cloud", "production-grade", "docker", "github-actions"]
+}
